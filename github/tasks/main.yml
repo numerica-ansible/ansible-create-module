@@ -1,9 +1,9 @@
 ---
-# tasks file for lunanode
+# tasks file for github
 - name: Create a github Repo
   github_repo:
     github_auth_key: "{{ git_key }}"
-    name: "create-lunanode"
+    name: "create-github"
     description: "Test Ansible module for github"
     private: no
     has_issues: no
