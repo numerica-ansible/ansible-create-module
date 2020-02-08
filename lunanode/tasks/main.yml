@@ -2,7 +2,7 @@
 # tasks file for lunanode
 - name: Create a github Repo
   github_repo:
-    github_auth_key: ac2cc652ec60a296a5ac6c3ad350d3cd50e2d47a2f
+    github_auth_key: "{{ git_key }}"
     name: "create-lunanode"
     description: "Ansible module for github"
     private: no
